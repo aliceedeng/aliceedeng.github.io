@@ -1,0 +1,42 @@
+body{
+  background-color: #FFFFFF;
+  width: 35%;
+  min-width: 350px;
+  position: relative;
+  margin: auto;
+  top: 25%;
+  height: 90%;
+}
+
+h1{
+  font-family:'Inter', sans-serif;
+}
+
+p{
+  font-family:'Inter', sans-serif;
+  font-size: 1em;
+  line-height: 1.9em;
+  text-align: justify;
+
+}
+
+footer{
+	font-family:'Inter', sans-serif;
+	color: #858b8f;
+	padding-top: 6px;
+}
+
+a{
+	text-decoration: none;
+	color: #858b8f;
+}
+
+a:hover{
+	color: #89bac7;
+}
+
+.name{
+	font-weight: bold;
+	border-left: 6px solid #f54242;
+	padding-left: 6px;
+}
