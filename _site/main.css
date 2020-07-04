@@ -15,7 +15,7 @@ h1{
 p{
   font-family:'Inter', sans-serif;
   font-size: 1em;
-  line-height: 1.9em;
+  line-height: 1.5em;
   text-align: justify;
 
 }
@@ -23,7 +23,7 @@ p{
 footer{
 	font-family:'Inter', sans-serif;
 	color: #858b8f;
-	padding-top: 6px;
+	padding-top: 8px;
 }
 
 a{
@@ -32,11 +32,11 @@ a{
 }
 
 a:hover{
-	color: #89bac7;
+	color: #ff522b;
 }
 
 .name{
 	font-weight: bold;
-	border-left: 6px solid #f54242;
+	border-left: 6px solid #ff522b;
 	padding-left: 6px;
 }
