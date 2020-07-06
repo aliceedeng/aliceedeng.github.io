@@ -34,7 +34,7 @@ a{
 }
 
 a:hover{
-	color: #1098ad;
+	color: #858b8f;
 }
 
 .link1{
@@ -53,7 +53,7 @@ a:hover{
 	content: "";
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(to top, #fed330 30%, rgba(0, 0, 0, 0) 45%);
+	background-image: linear-gradient(to top, #FEE793 30%, rgba(0, 0, 0, 0) 45%);
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -67,7 +67,7 @@ a:hover{
 
 .name{
 
-	background: linear-gradient(60deg, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	background: linear-gradient(60deg, #EC59A0, #D77777, #C89CA6, #B3A2E2, #5292CD, #285885, #283785);
 	background-size: 200% auto;
 	background-clip: text;
 	text-fill-color: transparent;
@@ -81,6 +81,7 @@ a:hover{
 
 /*
 * animation styles
+#ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82
 */
 
 @keyframes animatedgradient {
