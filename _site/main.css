@@ -70,11 +70,12 @@ a:hover{
 	transform-origin: left bottom
 }
 
-
+/*
 .name{
 	color: #A6E8AA;
 }
-/*
+*/
+
 .name{
 
 	background: linear-gradient(60deg, #EC59A0, #D77777, #C89CA6, #B3A2E2, #5292CD, #285885, #283785);
@@ -87,7 +88,7 @@ a:hover{
 	animation: animatedgradient 7s linear infinite;
     
 }
-*/
+
 
 
 /*
