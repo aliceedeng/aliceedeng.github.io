@@ -17,14 +17,14 @@ body{
 
 h1{
   font-family:'Inter', sans-serif;
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
 p{
   font-family:'Inter', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5em;
-  text-align: justify;
+  text-align: left;
   text-align-last: left;
 
 }
@@ -56,6 +56,7 @@ a:hover{
 	width: 0;
 }
 
+/*
 .link1:hover::after{
 	content: "";
 	width: 100%;
@@ -69,13 +70,16 @@ a:hover{
 	transform: rotate(-5deg);
 	transform-origin: left bottom
 }
-
-/*
-.name{
-	color: #A6E8AA;
-}
 */
 
+
+.name{
+	color: #FFFFFF;
+	padding-bottom: 5%
+}
+
+
+/*
 .name{
 
 	background: linear-gradient(60deg, #EC59A0, #D77777, #C89CA6, #B3A2E2, #5292CD, #285885, #283785);
@@ -88,6 +92,7 @@ a:hover{
 	animation: animatedgradient 7s linear infinite;
     
 }
+*/
 
 
 
