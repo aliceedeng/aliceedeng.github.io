@@ -31,15 +31,21 @@
             background-color: black;
             color: white;
         }
-        .column a {
+        .column.right {
+            text-align: right;
+        }
+        .column.right a {
             display: block;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
             color: #f65026; /* Set the color to #f65026 */
             text-decoration: none;
-            padding-left: 20px;
+            padding-left: 0px;
         }
-        .column a:hover {
+        .column.right a:hover {
             color: #0307fc; /* Change to a different color on hover */
+        }
+        .column.right a::after {
+            content: " →"; /* Add the arrow character after each link */
         }
     </style>
 </head>
@@ -56,13 +62,13 @@
             <h3></h3>
             <p></p>
         </div>
-        <div class="column">
+        <div class="column right">
             <h3>On the internet</h3>
             <p>
-              <a href="https://twitter.com/alicedeng_" target="_blank">Twitter @alicedeng_</a><br>
-              <a href="https://www.instagram.com/aliceedeng/" target="_blank">Instagram @aliceedeng</a><br>
-              <a href="https://letterboxd.com/alicedeng/" target="_blank">Letterboxd @alicedeng</a><br>
-              <a href="https://www.linkedin.com/in/alicedeng1/" target="_blank">Linkedin @alicedeng1</a><br>
+              <a href="https://twitter.com/alicedeng_" target="_blank">Twitter</a><br>
+              <a href="https://www.instagram.com/aliceedeng/" target="_blank">Instagram</a><br>
+              <a href="https://letterboxd.com/alicedeng/" target="_blank">Letterboxd</a><br>
+              <a href="https://www.linkedin.com/in/alicedeng1/" target="_blank">Linkedin</a><br>
             </p>
         </div>
     </div>
