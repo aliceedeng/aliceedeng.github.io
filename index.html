@@ -17,12 +17,14 @@
     
         .container {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             background-color: black;
             padding: 20px;
             position: fixed;
             bottom: 0;
-            width: 100%;
+            width: calc(100% - 40px); /* Adjusted width to account for the spaces on both sides */
+            left: 20px; /* Space to the left of the left column */
+            right: 20px; /* Space to the right of the right column */
         }
 
         .column {
@@ -42,15 +44,15 @@
             padding-left: 0px;
         }
         .column.right a:hover {
-            color: #0307fc; /* Change to a different color on hover */
-            padding-left: 30px; /* Adjust the left padding on hover */
+            color: #8d8eeb; /* Change to a different color on hover */
+            padding-left: 50px; /* Adjust the left padding on hover */
         }
         .column.right a::after {
             content: " →"; /* Add the arrow character after each link */
             transition: margin-left 0.3s; /* Add smooth transition effect for the arrow */
         }
         .column.right a:hover::after {
-            margin-left: 5px; /* Adjust the margin-left on hover to create the animation */
+            margin-left: 10px; /* Adjust the margin-left on hover to create the animation */
         }
     </style>
 </head>
