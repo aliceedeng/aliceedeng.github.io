@@ -43,9 +43,14 @@
         }
         .column.right a:hover {
             color: #0307fc; /* Change to a different color on hover */
+            padding-left: 30px; /* Adjust the left padding on hover */
         }
         .column.right a::after {
             content: " →"; /* Add the arrow character after each link */
+            transition: margin-left 0.3s; /* Add smooth transition effect for the arrow */
+        }
+        .column.right a:hover::after {
+            margin-left: 5px; /* Adjust the margin-left on hover to create the animation */
         }
     </style>
 </head>
