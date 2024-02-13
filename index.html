@@ -35,6 +35,13 @@
             background-color: black;
             color: white;
         }
+        .column.left,
+        .column.right {
+            width: 35%; /* Adjusted width for left and right columns */
+        }
+        .column.middle {
+            width: 30%; /* Adjusted width for middle column */
+        }
         .column.right {
             text-align: right;
             width: 30%;
@@ -74,14 +81,17 @@
             }
         }
         .large-text {
-            font-size: 80px;
-            margin-bottom: 100px; /* Add margin at the bottom */
+            font-size: 60px;
+            margin-bottom: 80px; /* Add margin at the bottom */
+        }
+        .gradient-animation {
             background-image: linear-gradient(45deg, red, orange);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: gradientAnimation 5s linear infinite alternate;
         }
+        
         @keyframes gradientAnimation {
             0% {
                 background-position: 0% 50%;
@@ -97,12 +107,12 @@
 
     <!-- Three columns at the bottom -->
     <div class="container">
-        <div class="column">
-            <h3 class="large-text">ALICE DENG</h3>
+        <div class="column left">
+            <h3 class="large-text gradient-animation">ALICE DENG</h3>
             <h3>About me</h3>
             <p>Currently living in East London working at Avant Arte. Before that, I was an early stage venture capitalist at Bessemer Venture Partners. And even before that, I got a (tragically unused) Computer Science degree from Penn.</p>
         </div>
-        <div class="column right">
+        <div class="column middle">
             <h3></h3>
             <p></p>
         </div>
