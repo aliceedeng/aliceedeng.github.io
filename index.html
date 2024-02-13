@@ -22,8 +22,7 @@
             justify-content: space-between;
             background-color: black;
             padding: 20px;
-            position: fixed;
-            bottom: 20x;
+            bottom: 40px;
             width: calc(100% - 40px); /* Adjusted width to account for the spaces on both sides */
             left: 20px; /* Space to the left of the left column */
             right: 20px; /* Space to the right of the right column */
@@ -67,6 +66,8 @@
         @media only screen and (max-width: 768px) {
             .container {
                 flex-direction: column; /* Stack columns on top of each other */
+                left: 20px; /* Space to the left of the left column */
+                right: 20px;
             }
 
             .column,
